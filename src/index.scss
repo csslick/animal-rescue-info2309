@@ -1,0 +1,36 @@
+// index.scss
+body {
+  color: #333;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul { list-style-type: none; }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #efefef;
+  padding: 20px;
+}
+
+nav {
+  background: #000;
+  color: #fff;
+  .container { background: transparent; }
+  ul li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
